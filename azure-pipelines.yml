@@ -16,11 +16,15 @@ steps:
     packageType: sdk
     version: '5.x'
 
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
 - task: Npm@1
   displayName: 'Run npm install'
   inputs:
     verbose: false
-    workingDir: $(System.DefaultWorkingDirectory)
 
 - script: './node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot'
   displayName: 'Compile Sass assets'
