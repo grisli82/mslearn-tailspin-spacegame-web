@@ -73,7 +73,7 @@ stages:
   displayName: 'Deploy the web application to dev'
   dependsOn: Build
   jobs:
-  - deployment: Deploy
+  - deployment: DeployDev
     pool:
       vmImage: 'ubuntu-20.04'
     environment: dev
@@ -96,7 +96,7 @@ stages:
   displayName: 'Deploy the web application to test'
   dependsOn: Build
   jobs:
-  - deployment: Deploy
+  - deployment: DeployTest
     pool:
       vmImage: 'ubuntu-20.04'
     environment: test
