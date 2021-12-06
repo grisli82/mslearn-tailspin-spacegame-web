@@ -51,7 +51,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
                 {
                     "Milky Way",
                     "Andromeda",
-                    "Pinwheel",
+                    "AsdisLilja",
                     "KristjanOli",
                     "Messier 69",
                 }
