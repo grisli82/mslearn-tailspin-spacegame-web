@@ -44,8 +44,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
                 {
                     "Solo",
                     "Duo",
-                    "Trio",
-                    "Quatro"
+                    "Trio"
                 },
 
                     GameRegions = new List<string>()
@@ -53,7 +52,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
                     "Milky Way",
                     "Andromeda",
                     "Pinwheel",
-                    "NGC 1300",
+                    "KristjanOli",
                     "Messier 84",
                 }
             };
