@@ -53,7 +53,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
                     "Andromeda",
                     "Pinwheel",
                     "KristjanOli",
-                    "Messier 84",
+                    "Messier 69",
                 }
             };
 
