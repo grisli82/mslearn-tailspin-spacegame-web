@@ -51,7 +51,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
                     GameRegions = new List<string>()
                 {
                     "Milky Way",
-                    "Andromeda",
+                    "BrynjarHelgi",
                     "AsdisLilja",
                     "KristjanOli",
                     "Messier 69",
